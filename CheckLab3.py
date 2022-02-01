@@ -429,7 +429,7 @@ class lab3e(unittest.TestCase):
 
     
     def test_a_function_list(self):
-        """[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print first item in list"""
+        """[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print all items in list"""
         try:
             import lab3e as lab3eStudent 
         except:
@@ -457,7 +457,7 @@ class lab3e(unittest.TestCase):
         self.assertEqual(expected_output, lab3eStudent.give_first_item(), msg=error_output)
 
     def test_c_function_first_and_last(self):
-        """[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print last item in list"""
+        """[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print first and last item in list"""
         try:
             import lab3e as lab3eStudent 
         except:
@@ -467,7 +467,7 @@ class lab3e(unittest.TestCase):
         self.assertEqual(expected_output, lab3eStudent.give_first_and_last_item(), msg=error_output)
     
     def test_d_function_second_and_third(self):
-        """[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print last item in list"""
+        """[Lab 3] - [Investigation 3] - [Part 1] - functions & lists - print second and third item in list"""
         try:
             import lab3e as lab3eStudent 
         except:
